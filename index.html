@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web de Cafetería</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="./img/logo.png" alt="Logo de la Cafetería"/></div>
+        <div class="navbar" id="navbar">
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#service">Servicios</a></li>
+                <li><a href="#order">Pedido</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="button">
+            <li id="icon"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </div>
+    </header>
+    <div class="search" id="search">
+        <input type="text" class="nico" id="nico" placeholder="Buscar..." />
+        <li id="cut"><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></li>
+    </div>
+    <!-- Sección Inicio -->
+    <div class="home" id="home">
+        <div class="home-content">
+            <h3>Mejor Café</h3>
+            <h2>Haz tu día genial con nuestro</h2>
+            <h2>Café Especial</h2>
+            <p>Disfruta de una experiencia sensorial única en nuestra cafetería: el mejor café con un propósito, sabores auténticos y un ambiente acogedor. Cada taza cuenta una historia que te encantará descubrir.</p>
+            <div class="button">
+                <button class="H-btn" id="H-btn">Cómpralo</button>
+                <button class="H-btn">Buscanos</button>
+            </div>
+        </div>
+        <div class="image">
+            <img src="./img/coffee-cup2.png" alt="Imagen de taza de café"/>
+        </div>
+    </div>
+    <!-- Sección Nosotros -->
+    <div class="about" id="about">
+        <div class="image">
+            <img src="./img/coffee-cup4.png" alt="Imagen de taza de café"/>
+        </div>
+        <div class="about-content">
+            <div class="main">
+                <h1>Sobre Nosotros</h1>
+                <p>En nuestra cafetería, creemos que una buena taza de café puede transformar cualquier momento. Con una pasión inigualable por la calidad, seleccionamos los mejores granos y perfeccionamos cada receta para ofrecerte una experiencia única. Ya sea para una reunión, un descanso o un momento personal, nuestro objetivo es hacer de cada visita algo especial. ¡Descubre el sabor que alegra tu día!</p>
+                <div class="button">
+                    <button class="A-btn">Conócenos</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sección de Servicios -->
+    <div class="service" id="service">
+        <h1>Nuestros Servicios</h1>
+        <div class="service-main">
+           <div class="card">
+            <img src="./img/img1.jpg" alt="Imagen del servicio"/>
+            <h2>Café, arte y pasión</h2>
+            <li><a href="#"><i class="fa-solid fa-arrow-right"></i></a></li>
+           </div>
+           <div class="card">
+            <img src="./img/img2.jpg" alt="Imagen del servicio"/>
+            <h2>Pasteles llenos de amor</h2>
+            <li><a href="#"><i class="fa-solid fa-arrow-right"></i></a></li>
+           </div>
+           <div class="card">
+            <img src="./img/img3.jpg" alt="Imagen del servicio"/>
+            <h2>Arte en cada taza</h2>
+            <li><a href="#"><i class="fa-solid fa-arrow-right"></i></a></li>
+           </div>
+        </div>
+    </div>
+    <!-- Sección de Pedidos -->
+    <div class="order" id="order">
+        <div class="order-main">
+        <div class="image">
+            <img src="./img/coffee-cup1.png" alt="Imagen de taza de café"/>
+        </div>
+        <div class="order-content">
+            <h2>Nuestra Historia</h2>
+            <p>Nuestra historia comienza con una simple idea: compartir nuestra pasión por el café de calidad. Desde nuestros inicios, hemos trabajado para crear un espacio acogedor donde cada taza cuenta una historia, desde la cuidadosa selección de granos hasta su preparación. Con el tiempo, hemos crecido y evolucionado, pero nuestra misión sigue siendo la misma: brindar un café excepcional que una a las personas y haga de cada momento algo memorable.</p>
+            <div class="button">
+                <button class="O-btn">$23.45</button>
+                <button class="O-btn" id="O-order">Cómpralo</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Sección de Contacto -->
+    <div class="contact" id="contact">
+        <h1>Contáctanos</h1>
+        <div class="main-content">
+            <div class="heading">
+                <div class="email">
+                    <h2>Correo Electrónico:</h2>
+                    <h4>contacto@tucafeteria.com</h4>
+                </div>
+                <div class="phone">
+                    <h2>Teléfono:</h2>
+                    <h4>+54 123 456 7890</h4>
+                </div>
+                <div class="address">
+                    <h2>Dirección</h2>
+                    <p>Av. Siempre Viva 123, Springfield</p>
+                </div>
+            </div>
+            <div class="form">
+                <input type="text" class="nico" placeholder="Nombre de Usuario" required/><br/>
+                <input type="password" class="nico" placeholder="Contraseña" required/><br/>
+                <textarea placeholder="Escribe tu Mensaje" class="text"></textarea><br/>
+                <div class="button">
+                    <button class="C-btn">Enviar Formulario</button>
+                </div>
+            </div>
+            <div class="social-media">
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </div>
+        </div>
+    </div>    
+    <!-- Pie de página -->
+    <div class="footer">
+        <h3>Proyecto de Sitio Web de una Cafetería</h3>
+        <h3>Desarrollado por Nicolás Adrián Tomadin - 2024</h3>
+        <h3>Contacto: nicolas.tomadin1995@gmail.com</h3>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
